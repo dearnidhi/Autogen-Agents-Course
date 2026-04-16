@@ -1,0 +1,44 @@
+Task: Generate a business analysis report
+Type: report
+
+Context:
+- Company: NovaTech Startup (B2B SaaS, 18 months old)
+- Report Type: Monthly Business Review (MBR) for February 2025
+- Audience: Board of directors and investors
+- Data provided:
+
+Financial Metrics:
+  - MRR: $47,500 (up from $38,200 last month, +24.3%)
+  - Total ARR: $570,000
+  - Burn rate: $62,000/month
+  - Runway: 14 months at current burn
+  - Gross margin: 71%
+  - CAC: $1,850 per customer
+  - LTV: $14,200 (LTV:CAC ratio = 7.7x)
+
+Growth Metrics:
+  - New customers this month: 12
+  - Total customers: 67
+  - Churn: 2 customers (1 small, 1 mid-market)
+  - Churn rate: 2.9%
+  - Net Revenue Retention: 108%
+
+Product:
+  - Shipped: Advanced analytics dashboard (most-requested feature)
+  - Bug fixes: 47 issues resolved
+  - Uptime: 99.94%
+  - NPS score: 67 (up from 58)
+
+Sales Pipeline:
+  - Pipeline value: $280,000
+  - 3 deals in final negotiation ($95,000 combined)
+  - Enterprise prospect: DataCorp ($80,000 ACV), demo scheduled next week
+
+Report Requirements:
+  - Executive summary (3-4 sentences)
+  - Highlights (what went well)
+  - Challenges and risks
+  - Key metrics table
+  - Next month priorities
+  - Format: Professional markdown with sections and bullet points
+  - Length: Comprehensive but scannable (not a novel)

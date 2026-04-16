@@ -1,0 +1,50 @@
+Senior Backend Engineer — FinTech Startup (Series B)
+
+Location: Remote (US preferred) | Salary: $130,000-$160,000
+
+About Us:
+We're a fast-growing fintech startup building infrastructure for embedded finance.
+Our platform processes $2B+ in transactions. Team of 40, backed by top VCs.
+
+The Role:
+We're looking for a Senior Backend Engineer to join our platform team.
+You'll design and build the APIs and services that power our core product.
+
+What You'll Do:
+- Design, build, and maintain high-performance REST and GraphQL APIs
+- Architect microservices that handle financial transaction processing
+- Optimize database queries and caching strategies for scale
+- Lead technical design discussions and mentor junior engineers
+- Collaborate with frontend, data, and DevOps teams
+- Own reliability: oncall rotation, monitoring, incident response
+
+What We're Looking For:
+REQUIRED:
+- 3+ years backend engineering experience
+- Strong Python (FastAPI or Django experience preferred)
+- PostgreSQL — advanced query optimization, indexing strategies
+- Experience with microservices architecture
+- Docker and cloud deployment (AWS preferred)
+- Strong understanding of API design and RESTful principles
+
+PREFERRED:
+- GraphQL experience
+- Financial/fintech domain knowledge
+- Redis for caching/queuing
+- Kubernetes
+- CI/CD pipeline experience (GitHub Actions, Jenkins)
+- Open source contributions
+
+Our Stack:
+Python (FastAPI), PostgreSQL, Redis, AWS (ECS, RDS, S3), Docker, GitHub Actions, React (frontend)
+
+Culture:
+Fast-paced, ownership-driven culture. We ship weekly. Direct feedback, no politics.
+We care about: quality code, thorough code reviews, documentation.
+Flexible async-first remote work.
+
+Why Join:
+- Competitive equity package
+- $2000 learning budget/year
+- Full health, dental, vision
+- Fully remote

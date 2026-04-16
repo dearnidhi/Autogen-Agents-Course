@@ -1,0 +1,36 @@
+MY BACKGROUND (rough notes):
+
+Name: Alex Kumar
+
+Skills: Python (3 years), JavaScript, React, Node.js, SQL (PostgreSQL, MySQL),
+FastAPI, Django, Docker, AWS (EC2, S3, Lambda), Git, GitHub Actions,
+REST APIs, MongoDB, Redis, pytest, Linux
+
+Jobs:
+- TechCorp (2022-present): Backend Developer
+  Built REST APIs with FastAPI + PostgreSQL
+  Reduced API response time by 40% through caching with Redis
+  Led migration from monolith to microservices (3 services live)
+  Mentored 2 junior developers
+
+- Startup XYZ (2020-2022): Full Stack Developer
+  Built entire e-commerce platform from scratch (React + Django)
+  Handled 50k monthly active users
+  Automated deployment pipeline saving 5 hours/week of manual work
+  Integrated 3 payment gateways (Stripe, PayPal, Razorpay)
+
+- Freelance (2019-2020): Web Developer
+  Built 8 client websites using React + Node.js
+  WordPress customization for 3 clients
+
+Education:
+B.Tech Computer Science, State University, 2019
+
+Certifications:
+AWS Certified Developer - Associate (2023)
+Python Institute PCEP (2021)
+
+Personal projects:
+- Built a stock price predictor using LSTM (GitHub: 300 stars)
+- Open source contribution to FastAPI (merged 2 PRs)
+- Built a Telegram bot for expense tracking (Python, 200 users)

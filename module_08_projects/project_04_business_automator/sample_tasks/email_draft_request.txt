@@ -1,0 +1,22 @@
+Task: Draft a professional email
+Type: email
+
+Context:
+- From: Sarah Chen, Product Manager at TechFlow Inc.
+- To: Enterprise client (GlobalRetail Corp), contact: Mr. James Whitfield
+- Situation: Project timeline slipping by 2 weeks due to unexpected API integration complexity
+- We need to inform the client, apologize, and propose a recovery plan
+- Tone: Professional, accountable, solution-focused (not defensive)
+- Key points to include:
+  1. Acknowledge the delay (2 weeks)
+  2. Brief explanation (API complexity discovered during integration testing)
+  3. Actions we're taking (dedicated team, weekend sprints)
+  4. Revised delivery date: March 15, 2025
+  5. Compensation offer: 2 additional weeks of post-launch support at no charge
+  6. Request for a 30-minute call this week to discuss
+
+Constraints:
+- Keep under 250 words
+- Subject line must be clear and professional
+- No corporate jargon or excuses
+- Include a clear call-to-action
