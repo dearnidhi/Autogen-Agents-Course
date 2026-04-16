@@ -1,0 +1,20 @@
+AutoGen Technical Reference
+
+Installation:
+pip install autogen-agentchat~=0.2
+
+For Groq support:
+pip install "autogen-agentchat[groq]~=0.2"
+
+Provider configuration:
+- Groq: api_type="groq"
+- Gemini: api_type="google"
+- OpenRouter: base_url="https://openrouter.ai/api/v1"
+- HuggingFace: base_url="https://api-inference.huggingface.co/models/{model}/v1"
+
+Key classes:
+- autogen.AssistantAgent
+- autogen.UserProxyAgent
+- autogen.GroupChat
+- autogen.GroupChatManager
+- autogen.register_function

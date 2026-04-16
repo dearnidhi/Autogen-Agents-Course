@@ -1,0 +1,5 @@
+autogen-agentchat
+python-dotenv
+requests
+autogen
+groq

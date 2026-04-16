@@ -1,0 +1,11 @@
+AutoGen Overview
+
+AutoGen is an open-source framework by Microsoft for building multi-agent AI applications.
+It allows developers to create applications where multiple AI agents collaborate to solve complex tasks.
+
+The two core agent types are AssistantAgent and UserProxyAgent.
+AssistantAgent is powered by an LLM and generates responses.
+UserProxyAgent executes code, runs tools, and routes human input.
+
+AutoGen 0.2 supports GroupChat for multi-agent conversations.
+GroupChat uses a GroupChatManager to decide which agent speaks next.
