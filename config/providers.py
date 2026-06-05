@@ -19,10 +19,12 @@ This file acts as the single source of truth for:
 
 PROVIDER_GROQ = "groq"
 PROVIDER_OPENROUTER = "openrouter"
+PROVIDER_CEREBRAS = "cerebras"
 
 ALL_PROVIDERS = [
     PROVIDER_GROQ,
     PROVIDER_OPENROUTER,
+    PROVIDER_CEREBRAS,
 ]
 
 
@@ -39,15 +41,25 @@ GROQ_MODELS = {
 
 
 # -----------------------------
+# Cerebras Models (free tier)
+# Docs: https://inference-docs.cerebras.ai/
+# -----------------------------
+
+CEREBRAS_MODELS = {
+    "default": "gpt-oss-120b",   # Free, very fast
+    "glm": "zai-glm-4.7",        # Free, alternative
+}
+
+
+# -----------------------------
 # OpenRouter Free Models
 # Docs: https://openrouter.ai/models?q=:free
 # -----------------------------
 
 OPENROUTER_MODELS = {
-    "default": "meta-llama/llama-3.3-70b-instruct:free",
-    "qwen": "qwen/qwen3-8b-instruct:free",
-    "mistral": "mistralai/mistral-7b-instruct-v0.3:free",
-    "phi": "microsoft/phi-3.5-mini-instruct:free",
+    "default": "google/gemma-4-31b-it:free",
+    "gptoss20": "openai/gpt-oss-20b:free",
+    "gptoss120": "openai/gpt-oss-120b:free",
 }
 
 
@@ -92,6 +104,7 @@ PROVIDER_ENV_KEYS = {
 
     PROVIDER_GROQ: "GROQ_API_KEY",
     PROVIDER_OPENROUTER: "OPENROUTER_API_KEY",
+    PROVIDER_CEREBRAS: "CEREBRAS_API_KEY",
 
 }
 
@@ -104,5 +117,6 @@ PROVIDER_MODEL_ENV_KEYS = {
 
     PROVIDER_GROQ: "GROQ_MODEL",
     PROVIDER_OPENROUTER: "OPENROUTER_MODEL",
+    PROVIDER_CEREBRAS: "CEREBRAS_MODEL",
 
 }

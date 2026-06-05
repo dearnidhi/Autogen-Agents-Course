@@ -30,8 +30,10 @@ from dotenv import load_dotenv
 from .providers import (
     PROVIDER_GROQ,
     PROVIDER_OPENROUTER,
+    PROVIDER_CEREBRAS,
     GROQ_MODELS,
     OPENROUTER_MODELS,
+    CEREBRAS_MODELS,
     PROVIDER_ENV_KEYS,
     PROVIDER_MODEL_ENV_KEYS,
 )
@@ -74,7 +76,23 @@ class LLMConfigBuilder:
         if self.provider == PROVIDER_OPENROUTER:
             return self._build_openrouter_config()
 
+        if self.provider == PROVIDER_CEREBRAS:
+            return self._build_cerebras_config()
+
         raise ValueError(f"Unsupported provider: {self.provider}")
+
+    def _build_cerebras_config(self) -> List[Dict[str, Any]]:
+
+        api_key = self._get_api_key()
+        model = self._get_model(CEREBRAS_MODELS)
+
+        return [
+            {
+                "model": model,
+                "api_key": api_key,
+                "api_type": "cerebras",
+            }
+        ]
 
     def _build_groq_config(self) -> List[Dict[str, Any]]:
 

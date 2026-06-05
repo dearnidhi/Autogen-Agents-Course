@@ -1,3 +1,19 @@
+# secrets - never upload (root + inside any folder)
 .env
+**/.env
+*.env
+
+# virtual environment
 venv/
+.venv/
+
+# python cache (any folder)
 __pycache__/
+**/__pycache__/
+*.pyc
+
+# generated output / state
+**/output/
+*.log
+tutor_state.json
+cost_history.json

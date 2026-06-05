@@ -3,3 +3,5 @@ python-dotenv
 requests
 autogen
 groq
+cerebras_cloud_sdk
+streamlit
