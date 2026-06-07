@@ -45,3 +45,5 @@ if st.button("Generate Content Kit", type="primary"):
                 st.error("The AI server is busy right now. Wait a few seconds and try again.")
             else:
                 st.error(f"Something went wrong: {e}")
+
+

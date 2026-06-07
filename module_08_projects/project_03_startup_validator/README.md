@@ -25,7 +25,6 @@ python validator.py --idea "An app that matches old clothes with local thrift bu
 ## Setup
 Put your free Groq key in `.env` (already there):
 ```
-DEFAULT_PROVIDER=groq
 GROQ_API_KEY=your_key_here
 ```
 Get a free key at https://console.groq.com/keys

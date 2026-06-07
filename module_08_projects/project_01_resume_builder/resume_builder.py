@@ -25,17 +25,13 @@ def _next_speaker(last_speaker, groupchat):
     return None                     # cover letter done -> stop
 
 
-def run_resume_builder(
-    raw_experience: str,
-    job_description: str,
-    provider: str = None,
-) -> str:
+def run_resume_builder(raw_experience: str, job_description: str) -> str:
     """Run the pipeline. Returns the final resume + cover letter text."""
     print("\n" + "="*65)
     print("AI RESUME BUILDER — 5-Agent Pipeline")
     print("="*65)
 
-    llm_config = get_llm_config(provider=provider, temperature=0.6)
+    llm_config = get_llm_config(temperature=0.6)
     llm_config["max_tokens"] = 900  # shorter replies = faster, stays under rate limit
     agents = create_builder_agents(llm_config)
 
@@ -82,12 +78,10 @@ Keep each step short.""",
             parts.append(text)
     return "\n\n---\n\n".join(parts)
 
-
 def main():
     parser = argparse.ArgumentParser(description="AI Resume Builder")
     parser.add_argument("--resume", default=None, help="Path to raw experience text file")
     parser.add_argument("--job", default=None, help="Path to job description text file")
-    parser.add_argument("--provider", default=None, choices=["groq", "gemini", "openrouter", "huggingface"])
     args = parser.parse_args()
 
     sample_dir = Path(__file__).parent / "sample_input"
@@ -98,8 +92,10 @@ def main():
     raw_exp = Path(resume_file).read_text(encoding="utf-8")
     job_desc = Path(job_file).read_text(encoding="utf-8")
 
-    run_resume_builder(raw_exp, job_desc, args.provider)
+    run_resume_builder(raw_exp, job_desc)
 
 
 if __name__ == "__main__":
     main()
+
+

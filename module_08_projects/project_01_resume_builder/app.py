@@ -39,7 +39,6 @@ if st.button("Build Resume", type="primary"):
             st.download_button("Download", result, file_name="resume.md")
         except Exception as e:
             if "429" in str(e) or "rate" in str(e).lower() or "queue" in str(e).lower():
-                st.error("The AI server is busy right now. Wait a few seconds and try again, "
-                         "or switch the provider above.")
+                st.error("The AI server is busy right now. Wait a few seconds and try again.")
             else:
                 st.error(f"Something went wrong: {e}")

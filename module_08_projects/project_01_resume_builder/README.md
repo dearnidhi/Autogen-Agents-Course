@@ -1,4 +1,4 @@
-# Project 03: AI Resume Builder
+# Project 01: AI Resume Builder
 
 Transforms raw experience notes + job description → tailored resume + cover letter.
 
@@ -10,14 +10,15 @@ Transforms raw experience notes + job description → tailored resume + cover le
 5. **CoverLetterWriter** writes a personalized 3-paragraph cover letter
 
 ## Usage
+Run from inside this folder:
 ```bash
+cd module_08_projects/project_01_resume_builder
+
 # Use sample data
-python module_08_projects/project_03_resume_builder/resume_builder.py
+python resume_builder.py
 
 # Use your own files
-python module_08_projects/project_03_resume_builder/resume_builder.py \
-    --resume my_experience.txt \
-    --job job_description.txt
+python resume_builder.py --resume my_experience.txt --job job_description.txt
 ```
 
 ## Input Format
