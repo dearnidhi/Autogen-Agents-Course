@@ -1,5 +1,7 @@
 # 🚀 AI Startup Idea Validator
 
+Youtube video:- https://youtu.be/X_eOCZ33eyU
+
 Describe a startup idea. **4 AI experts** judge it from different angles, then a
 **Judge** gives a score (/10), a GO / RISKY / NO-GO verdict, and next steps.
 
