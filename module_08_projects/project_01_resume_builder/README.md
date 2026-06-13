@@ -1,5 +1,7 @@
 # Project 01: AI Resume Builder
 
+youtube video :- https://youtu.be/TIGx5R_aDpk
+
 Transforms raw experience notes + job description → tailored resume + cover letter.
 
 ## What It Does
